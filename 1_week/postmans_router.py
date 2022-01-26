@@ -7,16 +7,14 @@ positions_department_list = [
     ]
 
 positions_post = (0, 2)
+distance = 100
+steps = []
+all_distance = []
 
 
 def get_distance(position_1, position_2):
     distance = ((position_1[0] - position_2[0]) ** 2 + (position_1[1] - position_2[1]) ** 2) ** 0.5
     return distance
-
-
-distance = 100
-steps = []
-all_distance = []
 
 
 def search_nearest_position(position_1, position_list):
