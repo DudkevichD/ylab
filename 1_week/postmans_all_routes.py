@@ -34,3 +34,4 @@ variants_path_dict = dict(sorted(variants_path_dict.items(), key=lambda total_di
 
 for total_distance, path in variants_path_dict.items():
     print(f'{path}= {total_distance}')
+    break
